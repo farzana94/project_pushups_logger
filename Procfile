@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn pushups_logger:create_app()
