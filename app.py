@@ -1,4 +1,4 @@
-from pk_pushups_logger_final import create_app
+from pushups import create_app
 
 app = create_app()
 
