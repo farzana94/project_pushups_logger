@@ -1,1 +1,1 @@
-web: gunicorn "pushups_logger:create_app()"
+web: gunicorn app:app
